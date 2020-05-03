@@ -39,7 +39,7 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_left_x() + 'Y' + settings.back_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Left'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Left'},
            
            {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
@@ -51,7 +51,7 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_right_x() + 'Y' + settings.back_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Right'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Right'},
           {'width': '9', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.center_x() + 'Y' + settings.center_y() + 'F' +
@@ -61,7 +61,7 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_left_x() + 'Y' + settings.front_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Frt_Left'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Left'},
            
            {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
@@ -73,7 +73,7 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_right_x() + 'Y' + settings.front_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Frt_Right'}]
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Right'}]
       }]
       
       if (settings.autolevel()) {
