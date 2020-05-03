@@ -39,19 +39,19 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_left_x() + 'Y' + settings.back_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Left'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Left'},
            
            {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_center_x() + 'Y' + settings.back_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Center'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Center'},
            
           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_right_x() + 'Y' + settings.back_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Right'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Right'},
           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.center_x() + 'Y' + settings.center_y() + 'F' +
@@ -61,19 +61,19 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_left_x() + 'Y' + settings.front_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Left'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Frt_Left'},
            
            {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_center_x() + 'Y' + settings.front_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Center'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Frt_Center'},
            
           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_right_x() + 'Y' + settings.front_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Right'}]
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Frt_Right'}]
       }]
       
       if (settings.autolevel()) {
