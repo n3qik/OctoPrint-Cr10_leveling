@@ -41,7 +41,7 @@ $(function() {
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back \xa0Left\xa0'},
            
-           {'width': '7', 'commands':
+           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_center_x() + 'Y' + settings.back_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
