@@ -41,35 +41,35 @@ $(function() {
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Left'},
            
-           {'width': '4', 'commands':
+           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_center_x() + 'Y' + settings.back_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Center'},
            
-          {'width': '4', 'commands':
+          {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_right_x() + 'Y' + settings.back_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Right'},
-          {'width': '4', 'commands':
+          {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.center_x() + 'Y' + settings.center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Center', 'offset': '2'},
-          {'width': '4', 'commands':
+          {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_left_x() + 'Y' + settings.front_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Left'},
            
-           {'width': '4', 'commands':
+           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_center_x() + 'Y' + settings.front_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Center'},
            
-          {'width': '4', 'commands':
+          {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_right_x() + 'Y' + settings.front_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
