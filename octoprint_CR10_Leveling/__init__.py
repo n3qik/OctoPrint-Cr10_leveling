@@ -70,7 +70,7 @@ class Cr10_levelingPlugin(octoprint.plugin.AssetPlugin,
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/electr0sheep/OctoPrint-Cr10_leveling/archive/{target_version}.zip"
+                pip="https://github.com/n3qik/OctoPrint-Cr10_leveling/archive/{target_version}.zip"
             )
         )
 
