@@ -38,3 +38,8 @@ Available options are:
  - Back Center Position
  - Back Right Position
  - Center Position
+ 
+ ## Version Changes
+ 
+ -5-3-2020: Added Front Center and Back Center for the newer larger bed printers.
+ 
