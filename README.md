@@ -15,8 +15,9 @@ Failing to do so can cause the printer to move out-of-bounds.
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
-or manually using this URL:
+Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)- Coming soon. 
+
+Manually using this URL:
 
     https://github.com/n3qik/OctoPrint-Cr10_leveling/archive/master.zip
 
