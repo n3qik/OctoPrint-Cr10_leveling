@@ -9,7 +9,7 @@ The coordinates and temperatures can all be customized in the plugin’s setting
 ## Warning
 
 After turning on your printer, you must first home it before you can safely issuing gcode that causes movement.
-This is true for this plugin, OctoPrint's default movement controls, and even the LCD control on the CR-10.
+This is true for this plugin, OctoPrint's default movement controls, and even the LCD control on the printer.
 
 Failing to do so can cause the printer to move out-of-bounds.
 
@@ -18,7 +18,7 @@ Failing to do so can cause the printer to move out-of-bounds.
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/electr0sheep/OctoPrint-Cr10_leveling/archive/master.zip
+    https://github.com/n3qik/OctoPrint-Cr10_leveling/archive/master.zip
 
 ## Configuration
 
@@ -32,7 +32,9 @@ Available options are:
  - Upper Z coordinate
  - Autolevel Commands
  - Front Left Position
+ - Front Center Position
  - Front Right Position
  - Back Left Position
+ - Back Center Position
  - Back Right Position
  - Center Position
