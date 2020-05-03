@@ -41,11 +41,11 @@ $(function() {
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back \xa0Left\xa0'},
            
-           {'width': '2', 'commands':
+           {'width': '7', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_center_x() + 'Y' + settings.back_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Center', 'offset': '2'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Center'},
            
           {'width': '7', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
