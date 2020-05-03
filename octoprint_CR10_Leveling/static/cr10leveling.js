@@ -39,13 +39,13 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_left_x() + 'Y' + settings.back_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back \xa0Left\xa0'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Left'},
            
            {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_center_x() + 'Y' + settings.back_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back \xa0Center\xa0'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Back Center'},
            
           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
@@ -61,13 +61,13 @@ $(function() {
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_left_x() + 'Y' + settings.front_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front \xa0Left\xa0'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Left'},
            
            {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_center_x() + 'Y' + settings.front_center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
-          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front \xa0Center\xa0'},
+          'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Front Center'},
            
           {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
