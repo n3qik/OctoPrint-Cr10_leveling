@@ -35,7 +35,7 @@ $(function() {
           {'width': '7', 'commands':
             ['M140 S0', 'M104 S0'],
           'customClass': 'btn', 'additionalClasses': 'btn-warning nowrap', 'name': 'Stop Heat', 'offset': '2'},
-          {'width': '4', 'commands':
+          {'width': '2', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_left_x() + 'Y' + settings.back_left_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
@@ -47,12 +47,12 @@ $(function() {
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Center'},
            
-          {'width': '2', 'commands':
+          {'width': '7', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.back_right_x() + 'Y' + settings.back_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Bak_Right'},
-          {'width': '2', 'commands':
+          {'width': '9', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.center_x() + 'Y' + settings.center_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
@@ -69,7 +69,7 @@ $(function() {
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
           'customClass': 'btn', 'additionalClasses': 'nowrap', 'name': 'Frt_Center'},
            
-          {'width': '2', 'commands':
+          {'width': '7', 'commands':
             ['G90', 'G0 Z' + settings.upper_z() + 'F500', 'G0 X' +
             settings.front_right_x() + 'Y' + settings.front_right_y() + 'F' +
             settings.feed_rate(), 'G0 Z' + settings.lower_z() + 'F500'],
